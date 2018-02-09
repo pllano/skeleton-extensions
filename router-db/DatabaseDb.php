@@ -11,15 +11,15 @@
  * file that was distributed with this source code.
  */
  
-namespace Pllano\RouterDb\Elasticsearch;
+namespace Pllano\RouterDb\DatabaseDb;
 use Pllano\RouterDb\Utility;
 use GuzzleHttp\Client as Guzzle;
 use Elasticsearch\ClientBuilder as Elastic;
  
 /**
- * ElasticsearchDb
+ * DatabaseDb
 */
-class ElasticsearchDb
+class DatabaseDb
 {
     
     private $resource = null;
