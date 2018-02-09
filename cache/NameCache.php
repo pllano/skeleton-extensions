@@ -1,6 +1,6 @@
 <?php
  
-namespace Pllano\Caching\Cache;
+namespace Vendor\Caching\Cache;
  
 class NameCache {
  
