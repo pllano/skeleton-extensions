@@ -9,7 +9,7 @@ class NamedatabasePing
  
     private $config;
  
-    public function __construct(array $config = array())
+    public function __construct(array $config = [])
     {
         if (count($config) >= 1){
             $this->config = $config;
